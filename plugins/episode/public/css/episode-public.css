@@ -1,0 +1,451 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+/*.episode_carousel .owl-item article,
+.episode_carousel .owl-item.cloned article {
+  cursor: pointer;
+  margin: 3% 2% 5% 10%;
+  margin: 5% 3% 0 15%;
+  transition: margin 0.4s ease;
+}
+.episode_carousel .owl-item.active article {
+  cursor: pointer;
+  margin: 3% 10% 3% 2%;
+  transition: margin 0.4s ease;
+}
+.episode_carousel .owl-item.active.center article {
+  cursor: auto;
+  margin: 0;
+}*/
+.episode_carousel .owl-item:not(.center) > article:hover {
+  opacity: .75;
+}
+
+.model.episodemodel {
+	top: 150px;
+}
+.episode_carousel .owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.episode_carousel .owl-nav button.owl-prev {
+  left: 0;
+  padding: 10px 2px !important;
+}
+.episode_carousel .owl-nav button.owl-next {
+  right: 0;
+  padding: 10px 2px !important;
+}
+.episode_carousel .owl-nav button.owl-prev img,
+.episode_carousel .owl-nav button.owl-next img{
+  width: 24px;
+}
+.episode_carousel .owl-item article {
+    margin-bottom: 0px;
+}
+.episode_carousel .owl-stage-outer {
+    margin-bottom: 30px;
+}
+.episode_carousel .owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.episode_carousel .owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+.episode_carousel .owl-dots button.owl-dot.active {
+  background-color: #000;
+}
+.episode_carousel .owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.episode_carousel .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #332f2f61 !important;
+}
+.episodeowl-slider .episode_carousel .owl-nav button:hover,
+.episodeowl-slider .episode_carousel .owl-nav button:focus {
+  background: #222 !important;
+}
+/*.owl-stage {
+  transition: transform 2s !important;
+}*/
+/*span {
+    font-size: 70px;    
+    position: relative;
+    top: -5px;
+}*/
+.episode_carousel .owl-nav button:focus {
+    outline: none;
+}
+
+.owl-slider {
+	/*max-width: 90%;*/
+	margin: 0 auto;
+}
+
+.owl-carousel.episode_carousel  .owl-nav.disabled {
+    display: block;
+}
+
+/**/
+.button-sec {
+	/*position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    top: 40%;*/
+}
+.episode_carousel .button-sec .btnicon {
+    background: transparent;
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    top: 25%;
+}
+.episode_carousel .owl-item .button-sec .btnicon {
+	/*display: none;*/
+}
+.episode_carousel .owl-item.center .button-sec .btnicon {
+	display: block;
+}
+.epivi-title {
+	background: #311411;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+.epivi-title p {
+	margin-bottom: 0;
+    text-align: center;
+    /* font-size: 20px; */
+    /* font-family: "Montserrat", SemiBold; */
+    padding: 20px 10px;
+}
+/*.episode_carousel .owl-nav {
+    display: block;
+    width: 100%;
+    position: inherit;
+    text-align: center;
+}*/
+
+.episode_carousel .owl-nav .owl-prev .prev-slide {
+    background: transparent url(https://vastg.wpengine.com/wp-content/uploads/2020/06/pprev.png) no-repeat center center !important;
+    width: 40px;
+   
+}
+.episode_carousel .owl-nav .owl-next .next-slide {
+    background: transparent url(https://vastg.wpengine.com/wp-content/uploads/2020/06/nnext.png) no-repeat center center !important;
+    width: 40px;
+    right: unset;
+}
+.episode_carousel .owl-nav .owl-prev span, .episode_carousel .owl-nav .owl-next span {
+    opacity: 0;
+}
+
+/* tab section */
+/* Tabs Card */
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#tabs{
+	background: #007b5e;
+    color: #eee;
+}
+#tabs h6.section-title{
+    color: #eee;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
+}
+
+.episodesidebar {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+}
+.episodesidebar .widgettitle {
+	margin-bottom: 20px;
+}
+.episodesidebar .textwidget {
+	font-size: 16px;
+}
+.panel.tab-session-section {
+    background-color: transparent;
+    padding-top: 15px;
+    margin-bottom: 0;
+    box-shadow: 0 0px 1px rgba(0,0,0,.05);
+}
+.tab-session-section .panel-title {
+	border-bottom: 1px solid #222;
+}
+.tab-session-section ul.nav-tabs {
+	margin: 0 auto;
+    width: auto;
+    text-align: center;
+    display: table;
+    border-bottom: 0px solid #ddd;
+}
+.tab-session-section ul.nav-tabs li.active a {
+	text-decoration: underline;
+}
+.tab-session-section ul.nav-tabs li {
+    min-width: 100px;
+}
+.tab-session-section ul.nav-tabs li a.active,
+.tab-session-section ul.nav-tabs li a.focus {
+	background-color: transparent;
+}
+.tab-session-section ul.nav-tabs li a {
+    background-color: transparent;
+    border: 0px solid transparent;
+    border-bottom-color: transparent;
+    font-size: 16px;
+    color: #311411;
+}
+.panel-body .tabitem {
+	/*width: 24.5%;
+    display: inline-block;
+    padding: 10px;*/
+    display: flex;
+    padding: 10px;
+    position: relative;
+    width: 25%;
+    float: left;
+}
+.tabs-session-title {
+    background: #311411;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+.tabs-session-title p {
+    margin-bottom: 0;
+    text-align: center;
+    /* font-size: 20px; */
+    /* font-family: "Montserrat", SemiBold; */
+    padding: 10px 10px;
+}
+.tabitem .tabitem-inner .tabimg-view {
+	position: relative;
+    display: block;
+}
+.tabitem-inner .tabbutton {
+	position: absolute;
+    top: 40%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: transparent;
+}
+.tabitem-inner .tabbutton .tabbtnicon {
+	padding: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 40px;
+}
+.tab-content .tab-pane.active {
+	margin: 0 auto;
+    width: 100%;
+}
+.episodemodel .modal-content,
+.tabepisodemodel .modal-content {
+    padding: 5px;
+}
+.episodemodel .modal-content .modal-body,
+.tabepisodemodel .modal-content .modal-body  {
+    padding: 0px;
+}
+.main-slider-section .episodeowl-slider {
+  padding: 0 15px;
+}
+.modal.tabepisodemodel,
+.modal.episodemodel {
+/*     top: 130px; */
+}
+.post-type-archive-episode .modal-content .close {
+	/* padding: 10px;
+	     */
+    opacity: 1;
+    margin-top: -35px;
+    margin-right: -35px;
+    color: #fff;
+    border-radius: 50%;
+    border: 2px solid;
+    padding: 5px 10px;
+    line-height: 1;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: transparent !important;
+    outline: none;
+    border: 0px solid #ddd !important;
+}
+@media screen and (min-width: 1024px) {
+	.panel-body .tab-pane-inner {
+		display: -ms-flex;
+		display: -webkit-flex;
+		display: flex;
+    	flex-wrap: wrap;
+	}
+}
+@media only screen and (max-width: 1024px) and (min-width: 767px)  {
+  .page-title-sec.episodespg .pg-title {
+  	font-size: 30px
+  }
+}
+@media screen and (max-width: 767px) {
+  .page-title-sec .pg-title {
+  	font-size: 20px;
+  }
+  .main-section {
+  	padding: 0 15px;
+  }
+  .panel.tab-session-section ul.nav-tabs li a {
+    padding: 0;
+    font-size: 14px
+  }
+  .panel.tab-session-section ul.nav-tabs li {
+    min-width: auto;
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 900px)  {
+	.tab-session-section .panel-body .tabitem {
+		width: 33%;
+	}
+	.panel-body .tab-pane-inner {
+		display: -ms-flex;
+		display: -webkit-flex;
+		display: flex;
+    	flex-wrap: wrap;
+	}
+}
+@media only screen and (max-width: 900px) and (min-width: 600px)  {
+	.tab-session-section .panel-body .tabitem {
+		width: 50%;
+	}
+	.tab-session-section .tabitem-inner .tabbutton .tabbtnicon {
+		font-size: 45px;
+	}
+
+}
+@media only screen and (max-width: 767px) and (min-width: 380px)  {
+    .tab-pane-inner .tabitem .tabitem-inner .tabbutton .tabbtnicon {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .tab-pane-inner .tabitem .tabitem-inner .tabbutton {
+        top: 25%;
+    }  
+     .tab-pane-inner .tabitem .tabitem-inner .tabbutton .tabbtnicon {
+        font-size: 25px;
+     }
+}
+@media screen and (max-width: 450px) {
+   .owl-slider .episode_carousel .button-sec .btnicon {
+        top: 20%;
+        font-size: 45px;
+    } 
+    .post-type-archive-episode .main-section {
+        padding: 0;
+    }
+    .episode_carousel .epivi-title {
+        font-size: 12px;
+    }
+    .tab-session-section .tabs-session-title {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .tab-session-section .panel-heading,
+    .tab-session-section .panel-body,
+    .tab-session-section .panel-body .tabitem {
+        padding: 10px 0px;
+    }
+    
+}    
+
+@media screen and (max-width: 600px) {
+	.tab-session-section .panel-body .tabitem {
+	    width: 100%;
+	}
+	.tabitem .tabitem-inner .tabimg-view {
+		width: 50%;
+	    float: left;
+	}
+	.tabitem .tabitem-inner .tabs-session-title {
+		width: 50%;
+	    float: right;
+	    background: transparent;
+	    text-align: left;
+	    color: #311411;
+	}
+	.tabitem .tabitem-inner .tabs-session-title p {
+		text-align: left;
+		padding-top: 0;
+	}
+	.panel-body .tabitem .tabitem-inner {
+	    display: -ms-flex;
+		display: -webkit-flex;
+		display: flex;
+	}
+	.tabitem .tabitem-inner .tabbutton {
+        top: 30%;
+	}
+	.panel.tab-session-section .panel-title {
+        border-bottom: 0px solid #222;
+    }
+    .panel-title .nav>li>a {
+        padding-bottom: 0;
+    }
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+        background-color: transparent;
+    }
+    #episodesidebar-main .episodesidebar .textwidget {
+        font-size: 14px;
+    }
+} 	
+
+body a {
+    color: rgb(49, 20, 17);
+    background-color: transparent;
+    /* text-decoration: underline; */
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}

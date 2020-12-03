@@ -1,0 +1,134 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ 	#genesis-content {
+		padding-bottom: 30px;
+	}
+	.page-title-sec {
+		padding-top: 40px;
+		padding-bottom: 40px; 
+		max-width: 80%;
+    	margin: 0 auto;
+	}
+	.page-title-sec .pg-title {
+	    color: #311411;
+	    font-family: "Cardo", Sans-serif;
+	    font-size: 50px;
+	    font-weight: 700;
+	    margin-bottom: 10px;
+	    text-align: center;
+	    text-transform: uppercase;
+	}
+	.page-title-sec .elementor-image {
+	    text-align: center;
+	    margin-bottom: 10px;
+	}
+	.sponsorlist h6{
+		text-align: center;
+    	margin-top: 15px;
+	}
+	/*.sponsorlist div{
+		padding: 10px;
+	}*/
+	/*.sponsorlist img{
+		height: 150px;
+    	width: 150px;
+    	border: 2px solid darkgray;
+	}
+	.sponsorlist li{
+		display:inline-block!important;
+		padding:10px;
+	} */
+
+
+	/**/
+	.archive-pg-content {
+		max-width: 1140px;
+		margin: 0 auto;
+	}
+	.archive-sponsorlist .entry-header,
+	.archive-sponsorlist .entry-footer {
+		display: none;
+	}
+	.archive-sponsorlist article {
+		margin: 10px;
+	}
+	
+	.archive-sponsorlist article .sponsorimage img {
+		max-height: 270px;
+	}
+	 .sponsorlist h6 {
+	 	background: #311411;
+	 	color: #fff;
+	 	text-transform: uppercase;
+	 	text-align: center;
+	 	margin: 0;
+    	padding: 12px;
+	 }
+	 .archive-sponsorlist {
+	 	width: 100%;
+	    text-align: center;
+	    margin: o auto;
+	    display: block;
+	 }
+@media only screen and (min-width: 1024px) {
+	 .archive-sponsorlist article.sponsor {
+		width: 23%;
+		max-width: 260px;
+		margin-bottom: 20px;
+		display: inline-block;
+		/*float: left;*/
+	}
+}
+@media only screen and (max-width: 1024px) and (min-width: 767px)  {
+	.archive-sponsorlist article.sponsor {
+		width: 30%;
+    	max-width: 260px;
+		margin-bottom: 20px;
+		display: inline-block;
+		/*float: left;*/
+	}
+}
+@media only screen and (max-width: 767px) and (min-width: 380px)  {
+	.archive-sponsorlist article.sponsor {
+		width: 44%;
+    	max-width: 260px;
+		margin-bottom: 20px;
+		display: inline-block;
+		/*float: left;*/
+	}
+}
+@media only screen and (max-width: 767px) {
+    #genesis-content .page-title-sec {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .content .page-title-sec .pg-title {
+        font-size: 28px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 450px) {
+    /*  .archive-sponsorlist article {
+        margin: 10px;
+        width: 100%;
+        max-width: 260px;
+        margin-bottom: 20px;
+        display: inline-block;
+    } */
+    .content .page-title-sec .pg-title {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 0;
+    } 
+  .archive-sponsorlist article {
+    margin: 10px;
+    width: 100%;
+    max-width: 260px;
+    margin-bottom: 20px;
+    display: inline-block;
+    } 
+}
